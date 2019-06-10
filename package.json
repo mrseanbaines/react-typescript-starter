@@ -4,6 +4,8 @@
   "description": "A basic starter template for React/TypeScript projects",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,6 +33,8 @@
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
     "source-map-loader": "^0.2.4",
     "typescript": "^3.5.1",
     "webpack": "^4.33.0",
